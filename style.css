@@ -1,6 +1,7 @@
 .gallery {
-  display: flex;
-  width: 900px;
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto;
+  width: 200px;
 }
 
 .gallery-item {
